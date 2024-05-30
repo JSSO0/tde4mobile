@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+        android:padding="10px"
+        android:paddingTop="50px"
+        android:rotation="0"
+        android:text="Qual desses animes apresenta uma história de amor emocionante e personagens cativantes?"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="85dp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/questionOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horimiya"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <RadioButton
+            android:id="@+id/questionTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F91515"
+            android:text="Whisper of the Heart"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+        <RadioButton
+            android:id="@+id/questionThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            android:text="Your Name."
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="291dp" />
+    </RadioGroup>
+
+</LinearLayout>
