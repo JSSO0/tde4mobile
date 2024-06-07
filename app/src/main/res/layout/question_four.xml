@@ -51,4 +51,11 @@
             tools:layout_editor_absoluteY="291dp" />
     </RadioGroup>
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4/10"
+        android:textAlignment="center" />
+
 </LinearLayout>

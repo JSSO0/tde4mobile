@@ -49,6 +49,13 @@
             android:text="Serial Experiments Lain"
             tools:layout_editor_absoluteX="146dp"
             tools:layout_editor_absoluteY="291dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9/10"
+            android:textAlignment="center" />
     </RadioGroup>
 
 </LinearLayout>
